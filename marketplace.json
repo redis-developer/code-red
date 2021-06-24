@@ -1,5 +1,5 @@
 {
-  "app_name": "Code Red",
+  "app_name": "Code Red - A Task Management app",
   "description": "Task management app using RedisGraphs to represent tasks and resources",
   "rank": "47",
   "type": "Full App",
