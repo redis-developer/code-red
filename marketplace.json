@@ -16,7 +16,7 @@
             "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/code-red.git" 
         }
     ],
-  "deploy_buttons": [],
+  
   "language": ["Ruby"],
   "redis_commands": ["GRAPH.QUERY"],
   "redis_features": [],
