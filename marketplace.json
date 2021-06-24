@@ -1,27 +1,34 @@
 {
   "app_name": "Code Red",
-  "description": "Task management app using graphs to represent tasks and resources",
-  "hidden": "true",
-  "rank": "",
+  "description": "Task management app using RedisGraphs to represent tasks and resources",
+  "rank": "47",
   "type": "Full App",
   "contributed_by": "Community",
-  "repo_url": "https://github.com/floriandejonckheere/code-red",
-  "download_url": "https://github.com/floriandejonckheere/code-red/archive/refs/heads/master.zip",
+  "repo_url": "https://github.com/redis-developer/code-red",
+  "download_url": "https://github.com/redis-developer/code-red/archive/refs/heads/master.zip",
   "hosted_url": "https://codered.pm/",
-  "quick_deploy": "false",
+  "quick_deploy": "true", 
+  "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/code-red.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/code-red.git" 
+        }
+    ],
   "deploy_buttons": [],
   "language": ["Ruby"],
   "redis_commands": ["GRAPH.QUERY"],
   "redis_features": [],
   "redis_modules": ["RedisGraph"],
   "app_image_urls": [
-    "https://github.com/floriandejonckheere/code-red/raw/master/screenshot0.png",
-    "https://github.com/floriandejonckheere/code-red/raw/master/screenshot1.png",
-    "https://github.com/floriandejonckheere/code-red/raw/master/screenshot2.png",
-    "https://github.com/floriandejonckheere/code-red/raw/master/screenshot3.png"
+    "https://github.com/redis-developer/code-red/raw/master/screenshot0.png",
+    "https://github.com/redis-developer/code-red/raw/master/screenshot1.png",
+    "https://github.com/redis-developer/code-red/raw/master/screenshot2.png",
+    "https://github.com/redis-developer/code-red/raw/master/screenshot3.png"
   ],
   "youtube_url": "https://www.youtube.com/watch?v=-oRxxVwS6lo",
   "special_tags": ["Hackathon"],
   "verticals": ["Technology"],
-  "markdown": "https://raw.githubusercontent.com/floriandejonckheere/code-red/master/README.md"
+  "markdown": "https://raw.githubusercontent.com/redis-developer/code-red/master/README.md"
 }
