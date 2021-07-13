@@ -9,7 +9,6 @@
 Code Red is a simple project management app, using a graph-based approach to task and resource management.
 This app was built for the [Build on Redis Hackathon 2021](https://hackathons.redislabs.com/hackathons/build-on-redis-hackathon).
 
-A demo server is publicly available at [https://codered.pm/](https://codered.pm/), the database resets to sample data every 15 minutes.
 
 ![Screenshot](https://github.com/floriandejonckheere/code-red/raw/master/screenshot0.png)
 <a href="https://github.com/floriandejonckheere/code-red/raw/master/screenshot1.png"><img src="https://github.com/floriandejonckheere/code-red/raw/master/screenshot1.png" width="49%" height="auto"></a>
