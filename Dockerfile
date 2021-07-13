@@ -1,4 +1,4 @@
-FROM ruby:3.0-alpine
+FROM ruby:3.0.1-alpine
 
 MAINTAINER Florian Dejonckheere <florian@floriandejonckheere.be>
 LABEL org.opencontainers.image.source https://github.com/floriandejonckheere/code-red
