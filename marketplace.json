@@ -1,13 +1,13 @@
 {
   "app_name": "Code Red - A Task Management app",
   "description": "Task management app using RedisGraphs to represent tasks and resources",
-  "rank": "47",
+  "rank": 47,
   "type": "Full App",
   "contributed_by": "Community",
   "repo_url": "https://github.com/redis-developer/code-red",
   "preview_image_url": "https://raw.githubusercontent.com/redis-developer/code-red/master/images/app_preview_image.png",
   "download_url": "https://github.com/redis-developer/code-red/archive/refs/heads/master.zip",
-  "hosted_url": "https://codered.pm/",
+  "hosted_url": "",
   "quick_deploy": "false", 
   "deploy_buttons": [
         {
