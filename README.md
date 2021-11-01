@@ -7,7 +7,7 @@
 ![Deployment](https://img.shields.io/github/deployments/floriandejonckheere/code-red/production?label=Deployment)
 
 Code Red is a simple project management app, using a graph-based approach to task and resource management.
-This app was built for the [Build on Redis Hackathon 2021](https://hackathons.redislabs.com/hackathons/build-on-redis-hackathon).
+
 
 
 ![Screenshot](https://github.com/floriandejonckheere/code-red/raw/master/screenshot0.png)
