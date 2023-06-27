@@ -1,6 +1,6 @@
 {
   "app_name": "Code Red - A Task Management app",
-  "description": "Task management app using RedisGraphs to represent tasks and resources",
+  "description": "Task management app using Redis to represent tasks and resources",
   "rank": 47,
   "type": "Full App",
   "contributed_by": "Community",
@@ -8,23 +8,32 @@
   "preview_image_url": "https://raw.githubusercontent.com/redis-developer/code-red/master/images/app_preview_image.png",
   "download_url": "https://github.com/redis-developer/code-red/archive/refs/heads/master.zip",
   "hosted_url": "",
-  "quick_deploy": "false", 
+  "quick_deploy": "false",
   "deploy_buttons": [
-        {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/code-red.git" 
-        },
-        {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/code-red.git" 
-        }
-    ],
-  
-  "language": ["Ruby"],
-  "redis_commands": ["GRAPH.QUERY"],
-  "redis_features": [],
-  "redis_modules": ["RedisGraph"],
+    {
+      "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/code-red.git"
+    },
+    {
+      "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/code-red.git"
+    }
+  ],
+  "language": [
+    "Ruby"
+  ],
+  "redis_commands": [
+    "GRAPH.QUERY"
+  ],
+  "redis_use_cases": [],
+  "redis_features": [
+    "Graph"
+  ],
   "app_image_urls": [],
   "youtube_url": "https://www.youtube.com/watch?v=PjqnpUQCD9U",
-  "special_tags": ["Hackathon"],
-  "verticals": ["Others"],
+  "special_tags": [
+    "Hackathon"
+  ],
+  "verticals": [
+    "Others"
+  ],
   "markdown": "https://raw.githubusercontent.com/redis-developer/code-red/master/README.md"
 }
