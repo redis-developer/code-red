@@ -29,10 +29,10 @@ Tasks can be linked to each other using a generic link (related to), or a specif
 ![Architecture](https://github.com/floriandejonckheere/code-red/raw/master/architecture.png)
 
 The application is conceived as a single Ruby on Rails monolith.
-For persistence, the application stores its data both relationally and in a graph: the former using PostgreSQL, the latter in [RedisGraph](https://oss.redislabs.com/redisgraph/), a Redis module by RedisLabs.
+For persistence, the application stores its data both relationally and in a graph: the former using PostgreSQL, the latter in [Redis Graph](https://oss.redislabs.com/redisgraph/), a Redis module by RedisLabs.
 Administrative data (such as users and projects) is stored relationally, while storage of tasks and the relationships between them is delegated to the graph storage.
 
-The graph storage layer features a small custom built [DSL](#dsl), that translates method calls in the style of ActiveRecord into RedisGraph queries.
+The graph storage layer features a small custom built [DSL](#dsl), that translates method calls in the style of ActiveRecord into Redis Graph queries.
 
 The web app is plain HTML sprinkled with some JavaScript (Stimulus for interactivity and [D3.js](https://d3js.org/)/[cola.js](https://ialab.it.monash.edu/webcola/) for graph visualization).
 The HTML is rendered server-side before being sent to the client.
@@ -67,7 +67,7 @@ A task is a graph node and has the following properties:
 - `status`: One of `Todo`, `In Progress`, `Review` or `Done`
 - `type`: One of `Idea`, `Goal`, `Epic`, `Feature`, `Task` or `Bug`
 -` user`: Assignee
-  
+
 A task can be linked to many other tasks, by relationships.
 
 **Relationship**
